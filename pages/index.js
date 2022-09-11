@@ -18,6 +18,7 @@ export default function Home() {
         </h1>
 
         <Link href="/test">Hello</Link>
+        <Link href="/crawl">Crawl</Link>
 
         <p className={styles.description}>
           Get started by editing{' '}
