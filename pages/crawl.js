@@ -6,7 +6,7 @@ const log = console.log;
 
 const getHtml = async () => {
   try {
-    return await axios.get("https://www.yna.co.kr/sports/all");
+    return await axios.get("https://www.naver.com");
   } catch (error) {
     console.error(error);
   }
